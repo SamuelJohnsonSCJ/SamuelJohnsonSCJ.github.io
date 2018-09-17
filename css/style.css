@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+body {
+	background-color: #555555;
+	color: white;
+	/*text-align: center;*/
+}
+
+header, footer {
+	text-align: center;
+}
+
+h1 {
+	color: darkorange;
+}
+
+a:link {
+	color: orange;
+	text-decoration: none;
+}
+
+a:visited {
+	color: darkorange;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+	text-decoration: underline;
+}
+
+a:active {
+	color: darkorange;
+	text-decoration: underline;
+}
+
+.image {
+	width: 100%;
+	max-width: 450px;
+}
+
+.gif {
+	width: 100%;
+	max-width: 400px;
+}
+
+/*.icon {
+	/*border: 3px solid white;
+	padding: 0px;
+}*/
+
+.pixel {
+	image-rendering: pixelated;
+}
+
+video {
+	width: 100%;
+	max-width: 350px;
+}
+
+.collapsible {
+	background-color: #777;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+.active, .collapsible:hover {
+	background-color: #666;
+}
+
+.collapsible:after {
+	content: '\02795';
+	font-size: 10px;
+	color: white;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "\2796";
+}
+
+.content {
+	padding: 0 10px;
+	background-color: #444;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height .4s ease-out;
+}
+/*inner c*/
+.collapsible2 {
+	background-color: #777;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+.active2, .collapsible2:hover {
+	background-color: #666;
+}
+
+.collapsible2:after {
+	content: '\02795';
+	font-size: 10px;
+	color: white;
+	float: right;
+	margin-left: 5px;
+}
+
+.active2:after {
+	content: "\2796";
+}
+
+.content2 {
+	padding: 0 10px;
+	background-color: #333;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height .4s ease-out;
+}

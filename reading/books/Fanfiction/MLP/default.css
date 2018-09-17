@@ -1,0 +1,33 @@
+﻿@charset "UTF-8";
+/*CSS Document*/
+
+body {
+	max-width: 50em;
+	padding: 0 1em;
+	margin: 2.0em auto;
+	text-align: justify;
+	line-height: 1.6em;
+	font-family: sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: left;
+}
+
+.authors-note {
+	border-top: 3px double currentColor;
+	border-bottom: 3px double currentColor;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+nav, article {
+	border-top: 3px double currentColor;
+	margin-top: 2.0em;
+}
