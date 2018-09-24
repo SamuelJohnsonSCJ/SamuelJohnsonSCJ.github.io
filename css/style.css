@@ -15,6 +15,10 @@ h1 {
 	color: darkorange;
 }
 
+.center {
+	text-align: center;
+}
+
 a:link {
 	color: orange;
 	text-decoration: none;
