@@ -1,6 +1,0 @@
-<link rel="icon" sizes"900x900" href ="favicon.jpg">
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-a:link {color: #ff7700; text-decoration: none;}
-a:visited {color: #ff4300; text-decoration: none;}
-a:hover {color: #ff7700; text-decoration: underline;}
-a:active {color: #ff4300; text-decoration: underline;}

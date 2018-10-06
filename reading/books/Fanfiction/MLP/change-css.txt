@@ -1,9 +1,0 @@
-To change, either find the style tag (yes the whole thing) or the other one of the below things and replace it with the desired one.
-
-Default:
-
-<link rel="stylesheet" type="text/css" href="default.css">
-
-White (really gray) on Black (with other changes too):
-
-<link rel="stylesheet" type="text/css" href="wob.css">
