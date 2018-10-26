@@ -52,7 +52,7 @@ header nav a {
 header li {
   float: left;
   display: inline;
-  padding: 2px 20px 0 0;
+  padding: 2px 0 0 20px;
 }
 
 header #site-title {
@@ -132,5 +132,13 @@ footer p {
 
   header {
     padding-bottom: 34px;
+  }
+
+  header li {
+    padding: 2px 0 0 0;
+  }
+
+  header li#spacing {
+    padding: 2px 0 0 20px;
   }
 }
