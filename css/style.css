@@ -124,7 +124,7 @@ footer p {
 
 /* Media Queries */
 @media(max-width: 768px) {
-  header #site-title, header nav, header nav li, #bookmarks div, #school div, .temp div, #error404 div {
+  header #site-title, header nav, header nav li, .section div {
     float: none;
     text-align: center;
     width: 100%;
