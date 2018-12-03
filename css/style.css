@@ -33,6 +33,10 @@ a {
 	-ms-interpolation-mode: nearest-neighbor;
 }
 
+.overflow {
+  overflow: auto;
+}
+
 /* Header */
 header {
   background-color: #555555;
@@ -107,6 +111,35 @@ footer a {
 footer p {
   margin-top: 10px;
   margin-bottom: 0px;
+}
+
+/* Table */
+
+table#sacrament {
+  width: 100%;
+}
+
+table#sacrament, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table#sacrament tr th, table#sacrament tr td {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+table#sacrament tr .gray {
+  background-color: #cbcbcb;
+}
+
+table#sacrament tr td.gray {
+  text-align: right;
+}
+
+table#sacrament tr .dgray {
+  background-color: #b6b6b6;
+  text-align: center;
 }
 
 /* 404 */
