@@ -87,10 +87,13 @@ header a:hover {
   color: #ffffff;
 }
 
-/* Bookmarks */
+/* Contact */
 
-#bookmarks {
-
+#contact {
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #555555;
+  padding: 5px 0 5px 20px;
 }
 
 /* Footer */
@@ -173,5 +176,9 @@ table#sacrament tr .dgray {
 
   header li#spacing {
     padding: 2px 0 0 20px;
+  }
+
+  #contact {
+    padding: 5px 0 5px 0;
   }
 }
