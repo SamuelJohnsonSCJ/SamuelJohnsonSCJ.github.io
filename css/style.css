@@ -89,7 +89,7 @@ header a:hover {
 
 /* Contact */
 
-#contact {
+.dark-background {
   color: #ffffff;
   font-size: 16px;
   background-color: #555555;
@@ -174,7 +174,7 @@ table#sacrament tr .dgray {
     padding: 2px 0 0 0;
   }
 
-  header li#spacing {
+  header li.spacing {
     padding: 2px 0 0 20px;
   }
 
